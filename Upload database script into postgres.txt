@@ -1,0 +1,99 @@
+Microsoft Windows [Version 10.0.22621.1848]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Sycamore>cd..
+
+C:\Users>cd..
+
+C:\>cd "Program Files"
+
+C:\Program Files>cd PostgreSQL
+
+C:\Program Files\PostgreSQL>cd 14
+
+C:\Program Files\PostgreSQL\14>cd bin
+
+C:\Program Files\PostgreSQL\14\bin>psql -U postgres postgres <C:\Users\Sycamore\Downloads\demo-big-en-20170815.sql
+Password for user postgres:
+SET
+SET
+ERROR:  database "demo" does not exist
+CREATE DATABASE
+You are now connected to database "demo" as user "postgres".
+SET
+SET
+CREATE SCHEMA
+COMMENT
+CREATE EXTENSION
+COMMENT
+SET
+CREATE FUNCTION
+CREATE FUNCTION
+COMMENT
+SET
+SET
+CREATE TABLE
+CREATE VIEW
+
+CREATE TABLE
+
+CREATE VIEW
+
+CREATE TABLE
+
+CREATE TABLE
+
+CREATE TABLE
+
+CREATE SEQUENCE
+ALTER SEQUENCE
+CREATE VIEW
+
+CREATE VIEW
+
+CREATE TABLE
+
+CREATE TABLE
+
+CREATE TABLE
+
+ALTER TABLE
+COPY 9
+COPY 104
+COPY 7925812
+COPY 2111110
+COPY 214867
+COPY 1339
+COPY 8391852
+COPY 2949857
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+
+ALTER DATABASE
+ALTER DATABASE
+
+C:\Program Files\PostgreSQL\14\bin>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
