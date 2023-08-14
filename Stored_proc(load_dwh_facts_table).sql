@@ -7,9 +7,6 @@ $$
 
 BEGIN 
 
-ALTER TABLE dwh.fact_tickets
-ADD CONSTRAINT unique_ticket_id UNIQUE (ticket_id);
-
 INSERT INTO dwh.fact_tickets(
 	ticket_id 
 	, customer_key 
