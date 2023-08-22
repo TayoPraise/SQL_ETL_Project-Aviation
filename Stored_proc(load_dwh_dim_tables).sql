@@ -64,7 +64,7 @@ SELECT
 FROM stg.dim_flights
 ON CONFLICT (flight_id)
 DO UPDATE SET 
-    , flight_no = EXCLUDED.flight_no
+    flight_no = EXCLUDED.flight_no
 	, aircraft_model = EXCLUDED.aircraft_model
 	, estimated_time = EXCLUDED.estimated_time
 	, departure_airport = EXCLUDED.departure_airport
