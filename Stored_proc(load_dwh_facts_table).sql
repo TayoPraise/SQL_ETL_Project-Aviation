@@ -33,4 +33,4 @@ RAISE NOTICE 'Facts tables data inserted successfully';
 
 END $$;
 
-CALL dwh_upsert_facts_table_proc()
+CALL dwh_upsert_facts_table_proc();
