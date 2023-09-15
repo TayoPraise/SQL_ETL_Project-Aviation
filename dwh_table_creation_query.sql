@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS dim_flights(
 CREATE TABLE IF NOT EXISTS fact_tickets(
 	ticket_key BIGINT GENERATED ALWAYS AS IDENTITY
 	, ticket_id VARCHAR(50)
-	, customer_key VARCHAR(50)
+	, customer_key BIGINT
 	, flight_key BIGINT
 	, book_date_id INT
 	, boarding_no INT
