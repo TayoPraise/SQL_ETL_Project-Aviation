@@ -4,7 +4,7 @@ SET SEARCH_PATH TO dwh;
 
 CREATE TABLE IF NOT EXISTS dim_customers(
 	customer_key BIGINT GENERATED ALWAYS AS IDENTITY
-	, customer_id VARCHAR(50)
+	customer_id VARCHAR(50)
 	, customer_name VARCHAR(100)
 	, phone VARCHAR(50)
 	, email VARCHAR(200)
@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS dim_customers(
 
 CREATE TABLE IF NOT EXISTS dim_flights(
 	flight_key BIGINT GENERATED ALWAYS AS IDENTITY
-	, flight_id BIGINT
+	flight_id BIGINT
 	, flight_no VARCHAR(20)
 	, aircraft_model VARCHAR(50)
 	, estimated_time TIME
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS dim_flights(
 
 CREATE TABLE IF NOT EXISTS fact_tickets(
 	ticket_key BIGINT GENERATED ALWAYS AS IDENTITY
-	, ticket_id BIGINT
+	, ticket_id VARCHAR(50)
 	, customer_id VARCHAR(50)
 	, flight_id BIGINT
 	, book_date_id INT
